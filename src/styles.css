@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply bg-[#e5a00d] py-3 px-6 rounded-3xl my-4 text-white
+}
+
+body {
+    overflow-x: hidden;
+}

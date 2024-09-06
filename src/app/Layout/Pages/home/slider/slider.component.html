@@ -1,0 +1,15 @@
+<owl-carousel-o [options]="customOptions">
+
+
+    @for (item of allMoviseforSlider; track $index) {
+    <ng-template carouselSlide>
+
+        <img [src]="pathImg+item.poster_path" alt="">
+    </ng-template>
+
+
+    }
+
+
+
+</owl-carousel-o>
